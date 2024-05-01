@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    /* box-sizing: border-box; */
+}
+
+.menu{
+    /* width:900px;
+    margin:0 auto; */
+}
+
+.logo{
+    
+     text-align: center;
+    background-color:#1e1666;
+}
+.logo img{
+    height:50px;
+    weight:650px; 
+    padding:10px; 
+}
+.sec{
+    text-align: center;
+    background-color: red;
+    padding:10px 10px;
+
+
+}
+.sec ul{
+    display: inline-block;
+    /* text-align: center; */
+
+}
+.sec ul li{
+    display:inline-block;
+    margin-left:-5px;
+    border-left:1px solid white;
+    line-height:50px;
+    margin:0px 0px;
+    padding:10px;
+    /* border:none!important; */
+    /* border-right: 0px; */
+    /* text-align: center; */
+    /* background-color: red; */
+
+}
+.sec ul li:first-child{
+    border-left: none;
+}
+/* .sec ul li a:first-child{
+    border:none;
+} */
+.sec ul li a{
+    text-decoration: none;
+    display: inline-block;
+    /* background-color: red; */
+    color:white;
+    display: inline-block;
+
+}
+
+.lae{
+    background-image: url(images/tara.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+    /* height:250px; */
+    /* min-height: 400px; */
+}
+.lae-e{
+    margin:auto;
+    text-align: center;
+    padding:150px 80px;
+    color:white;
+}
+.lae-e h1{
+    margin:40px 0px;
+}
+.lae-e p{
+    line-height:30px;
+}
+.lae-e button{
+    display:inline-block;
+    width:120px;
+    height:40px;
+    color:white;
+    background-color: green;
+    margin:30px 0;
+}
+.last{
+    background-color: #4ab75c;
+    padding:50px;
+    /* text-align: center; */
+}
+.last h1{
+    text-align: center;
+}
+.service{
+width:80%;
+margin: 50px auto;
+
+}
+.service-img{
+    width:18%;
+    display:inline-block;
+}
+.service-img img{
+    width:100%;
+}
+.service-content{
+    width:35%;
+    /* margin: auto; */
+    display: inline-block;
+    margin:0 96px;
+}
+.lest{
+    width:80%;
+    margin:auto;
+}
+.another3{
+    width:35%;
+    display: inline-block;
+    margin: 0 96px;
+}
+
+
+.another1{
+    width: 18%;
+    display:inline-block;
+}
+.another1 img{
+    width:100%;
+}
